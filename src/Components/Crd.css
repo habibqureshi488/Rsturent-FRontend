@@ -1,0 +1,82 @@
+/* General Page Styling */
+.food-page {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .food-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .food-header h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .food-header p {
+    color: #555;
+  }
+  
+  /* Grid Layout for Food Cards */
+  .food-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  /* VIP Food Card Styling */
+  .food-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  
+  .food-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .food-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  .explore-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .explore-button:hover {
+    background-color: gold;
+    color: black;
+    transform: translateY(-2px);
+  }
+  
+  .explore-button:active {
+    transform: translateY(0);
+  }
+  
+  .food-info {
+    padding: 15px;
+  }
+  
+  .food-info h2 {
+    margin: 10px 0;
+    color: #333;
+    font-size: 1.5em;
+  }
+  
+  .food-info p {
+    color: #777;
+  }
+  

@@ -1,0 +1,43 @@
+.coming-soon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #141E30, #243B55);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .content {
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .countdown div {
+    text-align: center;
+  }
+  
+  .countdown span {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .countdown p {
+    margin-top: 10px;
+  }
+  
